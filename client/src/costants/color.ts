@@ -1,0 +1,18 @@
+export const colors = {
+    white: '#FFFFFF',
+    grey: '#7B6F72',
+    lightPurple: '#e2b0ff',
+    darkPurple: '#9f44d3',
+    black: '#1D1617',
+    transparent: 'transparent',
+    inputColor: '#F7F8F8',
+    placeholderColor: '#ADA4A5',
+    inputIconColor: '#7B6F72',
+    red: '#ed1607',
+    horizontalLineColor: '#DDDADA',
+    facebook: '#1877F2',
+    lightBlue:'#9DCEFF',
+    darkBlue: '#92A3FD',
+    blackOpacity: 'rgba(0,0,0,0.5)',
+    green: '#0e9e35',
+}
