@@ -129,7 +129,7 @@ const LoginScreen = ({ navigation }: LoginScreenProps) => {
                         </View>
                         <CustomButton
                             title={'Login'}
-                            containerStyle={{ marginHorizontal: 20, top: 40, marginTop: 150 }}
+                            containerStyle={{ marginHorizontal: 20 }}
                             isDisabled={!isValid}
                             onPressed={handleSubmit}
                             prefixIcon={icon.LOGIN}
@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
         height: height * 0.26,
     },
     forgetBtn: {
-        marginHorizontal: 118,
+        // marginHorizontal: 118,
     },
     forget: {
         fontFamily: fonts.Medium,
@@ -262,9 +262,10 @@ const styles = StyleSheet.create({
         top: 40,
     },
     account: {
-        fontSize: 22,
+        fontSize: 18,
         fontFamily: fonts.Regular,
         color: colors.black,
+        marginHorizontal: 20
     },
     login: {
         color: colors.lightPurple,

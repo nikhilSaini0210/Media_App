@@ -93,7 +93,7 @@ const ForgetPasswordScreen = ({ navigation }: ForgetPasswordScreenProps) => {
             </View>
             <CustomButton
               title={'Send Email'}
-              containerStyle={{ marginHorizontal: 20, top: 60 }}
+              containerStyle={{ marginHorizontal: 20 }}
               isDisabled={!isValid}
               onPressed={handleSubmit}
               type="default"
@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.white,
+    height: height,
   },
   titleContainer: {
     marginVertical: 25,
@@ -138,6 +139,6 @@ const styles = StyleSheet.create({
   },
   inputConatiner: {
     marginTop: 10,
-    height: height * 0.7,
+    // height: height * 0.7,
   },
 });

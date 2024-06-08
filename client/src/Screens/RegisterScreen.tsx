@@ -220,7 +220,7 @@ const RegisterScreen = ({ navigation }: RegisterScreenProps) => {
                         </View>
                         <CustomButton
                             title={'Register'}
-                            containerStyle={{ marginHorizontal: 20, marginTop: 22 }}
+                            containerStyle={{ marginHorizontal: 20}}
                             isDisabled={!isValid}
                             onPressed={handleSubmit}
                             type="default"
